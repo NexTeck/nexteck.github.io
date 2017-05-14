@@ -1,0 +1,116 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,300italic,300,100,100italic,400italic,700,700italic,900,900italic);
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+:focus {
+	outline: 0;
+}
+a:focus {
+	outline: 0;
+	text-decoration: none;
+}
+body{
+	font-family: 'Lato', sans-serif;
+}
+a {
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:none;
+}
+
+.wraper{
+	width:100%;
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+}
+
+.wraper:before,
+.wraper:after {
+  display: table;
+  content: " ";
+}
+
+.wraper:after{
+  clear: both;
+}
+
+/* Skills Style 10 */
+
+
+.skillst10{
+	width:100%;
+	color:#fff;
+}
+.skillst10 .skillbar{
+	width: 100%;
+	height: 50px;
+	position:relative;
+	margin-bottom:30px;
+	background-color: #fff;
+	box-sizing:border-box;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+.skillst10 .count-bar{
+	height: 100%;
+	width:0px;
+	position:relative;
+	height: 50px;
+	background-color: #00a8c5;
+
+}
+.skillst10 .title{
+	font-size:15px;
+	font-weight:400;
+	padding-left:12px;
+	line-height:40px;
+	text-transform:uppercase;
+}
+.skillst10 .count{
+	position:absolute;
+	top:0;
+	right:-45px;
+	line-height:40px;
+	font-size:20px;
+	font-weight:700;
+	color:#fff;
+}
+
+
+/* Skills Style 10 */
+
+
+
+/*Coustom Media Query Css*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	
+}
+
+@media only screen and (max-width: 767px) {
+	
+}
